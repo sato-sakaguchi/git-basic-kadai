@@ -1,1 +1,21 @@
-
+PS C:\Users\User_name> cd git_challenge
+PS C:\Users\User_name\git_challenge> git init
+Initialized empty Git repository in C:/Users/User_name/git_challenge/.git/
+PS C:\Users\User_name\git_challenge> git add hello_world.txt
+PS C:\Users\User_name\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 6fa74f2] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\User_name\git_challenge> git add hello_world.txt
+PS C:\Users\User_name\git_challenge> 
+PS C:\Users\User_name\git_challenge> git commit -m "日本語訳を追記"
+[main 6cbd8a0] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\User_name\git_challenge> git log
+commit 6cbd8a042e26302cee13dd83ff74be0555e17f77 (HEAD -> main)
+Date:   Mon Jun 5 14:39:34 2023 +0900
+    日本語訳を追記
+commit 6fa74f2606e6d639711d4f4c75f04045dc11b528
+Date:   Mon Jun 5 14:38:24 2023 +0900
+    hello_world.txtを追加
+PS C:\Users\User_name\git_challenge>
